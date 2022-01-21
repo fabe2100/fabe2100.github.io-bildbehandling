@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pens Webbutik</title>
+  <link rel="stylesheet" href="stylsheet.css" type="text/css" />
+
+  <!--Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!-- Insert Favicon -->
+  <link rel="shortcut icon" href="bilder/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" href="bilder/favicon.ico">
+  <link rel="icon" type="image/png" href="bilder/faviconprojekt.png">
+
+
+</head>
+
+<body>
+  <div class="website-wrapper">
+    <!--Start Header-->
+    <header>
+      <div class="desktop-header">
+        <div class="container">
+          <a href="index.html" class="logo">
+            <img src="bilder/logotypprojekt.svg" alt="logo som föreställer en penna">
+          </a>
+          <nav>
+            <ul>
+              <li><a class="active" href="index.html">HEM</a></li>
+              <li><a href="sortiment.html">SORTIMENT</a></li>
+              <li><a href="omoss.html">OM OSS</a></li>
+              <li><a href="kontakt.html">KONTAKTA OSS </a></li>
+
+            </ul>
+            <div class="form">
+              <a href="varukorg.html" aria-label="varukorg">
+                <i class="fa fa-shopping-basket fa-fw" style="padding-right: 60px;"></i></a>
+              <i class="fa fa-search fa-fw"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--mobile menu-->
+      <div class="mobile-menu">
+
+        <div class="topnav-mobile">
+
+          <a href="index.html"> <img src="bilder/logotypprojekt.svg" alt="logo som föreställer en penna"
+              class="mobile-logo">
+          </a>
+
+          <div id="myLinks">
+            <a href="index.html">HEM</a>
+            <a href="sortiment.html">
+              SORTIMENT</a>
+            <a href="omoss.html">OM OSS</a>
+            <a href="kontakt.html">KONTAKTA OSS</a>
+
+          </div>
+          <a href="javascript:void(0);" aria-label="mobil bars ikon" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </header>
+    <div class="form-mobile">
+      <a href="varukorg.html" aria-label="varukorg">
+        <i class="fa fa-shopping-basket fa-fw" style="color:#005CA9;font-size: 25px;"></i></a>
+      <i class="fa fa-search fa-fw " style="font-size: 25px; color:#005CA9"></i>
+    </div>
+    <!--slideshow of my two images-->
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <picture>
+          <source srcset="bilder/bildspelmobil8.jpg" media="(max-width: 621px)">
+
+          <source srcset="bilder/bildspel7.webp" alt="bildspel " type="image/webp">
+
+
+
+          <img src="bilder/bildspel1.jpg" alt="bildspel av pennor" style="width:auto;">
+        </picture>
+
+      </div>
+
+      <div class="mySlides fade">
+        <picture>
+          <source srcset="bilder/bildspelmobil3.jpg" media="(max-width: 621px)">
+
+          <source srcset="bilder/bildspel2.webp" alt="bildspel 2" type="image/webp">
+
+
+          <img src="bilder/bildspel2.jpg" alt="bildspel av whiteboard pennor" style="width:auto;">
+
+        </picture>
+      </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <div class="page-container">
+      <!--Text-->
+      <main>
+        <section>
+          <div class="text">
+
+            <h1
+              style="font-size: 2em;color:#005CA9; font-family: 'Roboto', sans-serif;display: flex;justify-content: center; ">
+              Pens Butik</h1>
+
+            <p>Vi har allt som behövs för kreativitet, du finner hos oss bland annat: Pennor, blyertspennor, linjaler,
+              whiteboard pennor...
+
+            </p>
+            <p>Sätt inga gränser för ditt skapande, för vi har just det material du behöver för vara mer kreativ.
+
+            </p>
+            <p>Vårt material kan användas som kontorsmaterial, för DIY- projekt, Hobby skapandet och som skolmaterial.
+            </p><br>
+            <h2
+              style="color:#005CA9 ; font-family: 'Roboto', sans-serif; display: flex; justify-content: center; font-size: 1.5em;">
+              Det här finner du hos oss!</h2>
+          </div>
+          <!--grids for my homepage images-->
+          <div class="image-boxes">
+            <div class="box">
+              <picture>
+                <source srcset="bilder/pennor.webp" alt="pennor" type="image/webp">
+                <img src="bilder/pennor.jpg" alt="pennor">
+              </picture>
+            </div>
+            <div class="box">
+              <picture>
+              <source srcset="bilder/whitebaord.webp" alt="whiteboard pennor" type="image/webp">
+              <img src="bilder/whitebaord.jpg" alt="whiteboard pennor">
+            </picture>
+            </div>
+
+            <div class="box">
+
+              <picture>
+                <source srcset="bilder/blyertspennor.webp" alt="blyertspennor" type="image/webp">
+              <img src="bilder/blyertspennor.jpg" alt="blyertspennor">
+              </picture>
+            </div>
+
+            <div class="box">
+              <picture>
+                <source srcset="bilder/linjaler.webp" alt="linjaler" type="image/webp">
+              <img src="bilder/linjaler.jpg" alt="linjaler">
+              </picture>
+            </div>
+          </div>
+
+          <div class="mobile-images">
+            <picture>
+              <source srcset="bilder/pennor.webp" alt="pennor" type="image/webp">
+            <img src="bilder/pennor.jpg" alt="pennor" style="width:90%"></picture>
+            <br><br>
+
+            <picture>
+              <source srcset="bilder/whitebaord.webp" alt="whiteboard pennor" type="image/webp">
+            <img src="bilder/whitebaord.jpg" alt="whiteboard pennor" style="width:90%"></picture>
+
+            <br><br>
+            <picture>
+              <source srcset="bilder/blyertspennor.webp" alt="blyertspennor" type="image/webp">
+            <img src="bilder/blyertspennor.jpg" alt="blyertspennor" style="width:90%"></picture>
+
+
+            <br><br>
+            <picture>
+              <source srcset="bilder/linjaler.webp" alt="linjaler" type="image/webp">
+            <img src="bilder/linjaler.jpg" alt="linjaler" style="width:90%"></picture>
+          </div>
+
+        </section>
+
+      </main>
+    </div>
+
+    <footer>
+
+      <div class="footer-content">
+        <a href="index.html" class="logo">
+          <img src="bilder/logotypprojekt.svg" alt="logo som föreställer en penna" style="width:200px; ">
+        </a>
+
+        <h3>Pens Webbutik</h3>
+        <p>Hos Pens hittar du de verktyg och material som hjälper dig i det vardagliga livet för att nå fram ditt mål
+          och dina drömmar!</p>
+        <!--social media icons-->
+        <ul class="socials">
+          <li><a href="http://facebook.com" aria-label="facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="http://twitter.com" aria-label="twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="http://youtube.com" aria-label="youtube"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="http://linkedin.com" aria-label="linkedin"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+
+      </div>
+
+    </footer>
+  </div>
+  <!--Javascript for slideshow-->
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+
+
+
+</body>
+
+</html>

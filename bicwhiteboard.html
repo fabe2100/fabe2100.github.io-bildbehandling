@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pens Webbutik</title>
+  <link rel="stylesheet" href="stylsheet.css" type="text/css" />
+
+  <!--Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <!-- Insert Favicon -->
+  <link rel="shortcut icon" href="bilder/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" href="bilder/favicon.ico">
+  <link rel="icon" type="image/png" href="bilder/faviconprojekt.png">
+
+
+</head>
+
+<body class="bodyspecifik">
+  <!--Start Header-->
+  <header>
+    <div class="desktop-header">
+
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="bilder/logotypprojekt.svg"
+            alt="logo som föreställer en penna">
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html">HEM</a></li>
+            <li><a href="sortiment.html" class="active">SORTIMENT</a></li>
+            <li><a href="omoss.html">OM OSS</a></li>
+            <li><a href="kontakt.html">KONTAKTA OSS </a></li>
+
+          </ul>
+          <div class="form">
+            <a href="varukorg.html">
+              <i class="fa fa-shopping-basket fa-fw" style="padding-right: 60px;"></i></a>
+            <i class="fa fa-search fa-fw"></i>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!--mobile menu-->
+    <div class="mobile-menu">
+
+      <div class="topnav-mobile">
+
+        <a href="index.html"> <img src="bilder/logotypprojekt.svg"
+            alt="logo som föreställer en penna" class="mobile-logo">
+        </a>
+
+        <div id="myLinks">
+          <a href="index.html">HEM</a>
+          <a href="sortiment.html">
+            SORTIMENT</a>
+          <a href="omoss.html">OM OSS</a>
+          <a href="kontakt.html">KONTAKTA OSS</a>
+
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+
+      </div>
+
+    </div>
+  </header>
+  <div class="form-mobile">
+    <a href="varukorg.html">
+      <i class="fa fa-shopping-basket fa-fw" style="color:#005CA9;font-size: 25px;"></i></a>
+    <i class="fa fa-search fa-fw " style="font-size: 25px; color:#005CA9"></i>
+  </div>
+
+  <section class="specifik">
+    <div class="product-media-container">
+      <div class="big-image-wrapper">
+        <img src="bilder/whiteboardspecifik.jpg" alt="bic penna"
+          class="product-image">
+      </div>
+      <div class="product-media-wrapper">
+        <div class="small-image-wrapper">
+          <a target="_blank" href="bilder/bicminiatyrwhitebaord2.jpg">
+            <img src="bilder/bicminiatyrwhitebaord2.jpg" alt="bic penna liten"
+              class="product-image" style="width:100px; height:100px;border: 1px solid grey;"></a><br><br>
+          <a target="_blank" href="bilder/bicwhitebaordminiatyr2.jpg">
+            <img src="bilder/bicwhitebaordminiatyr2.jpg" alt="bic penna liten"
+              class="product-image" style="width:100px; height:100px;border: 1px solid grey;"></a>
+        </div>
+      </div>
+    </div>
+    <div class="product-info-container">
+      <div class="product-info">
+
+        <span class="seller">BIC</span>
+        <h3 class="product-title">BIC Whitebaord Penna </h3>
+        <div class="quantity buttons_added">
+          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="20" name="quantity"
+            value="1" title="Qty" class="input-text qty text" inputmode=""><input type="button" value="+" class="plus">
+        </div>
+        <span class="price">19 kr</span>
+      </div><br>
+
+
+      <br>
+      <a href="#" class="button">LÄGG TILL VARUKORG</a>
+      <div class="product-detail">
+
+        <p style="font-size: 0.7em;color:#333"> Whiteboardpenna från den kända märke BIC. Färgen är svart och det är
+          lätt att ta bort skriv märken av whiteboard tavlan. Storlek 12cm. </p>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+
+
+
+  <footer>
+
+    <div class="footer-content">
+      <a href="index.html" class="logo">
+        <img src="bilder/logotypprojekt.svg" alt="logo som föreställer en penna"
+          style="width:200px;">
+      </a>
+      <h3>Pens Webbutik</h3>
+      <p>Hos Pens hittar du de verktyg och material som hjälper dig i det vardagliga livet för att nå fram ditt mål och
+        dina drömmar!</p>
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+    </div>
+
+
+
+  </footer>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+
+
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+
+</html>
